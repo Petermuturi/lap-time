@@ -25,7 +25,6 @@ export default class Main extends Component{
       margin:"-8px -8px -10px -8px",
       background:"url(img/"+img+".jpg)",
       backgroundSize: "cover",
-      filter: "grayscale(50%)",
       height:"100vh",
       width:"100vw"
     }

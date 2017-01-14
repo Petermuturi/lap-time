@@ -5,12 +5,17 @@ export default class Trigger extends Component{
   render(){
     return(
       <div className="trigger">
-        <button className="reset">reset</button>
-        <br/>
         <div>
+          <button className="reset">reset</button>
+        </div>
+        <br/>
+        <div className="stlp">
           <button className="start">start</button>
           <button className="lap">lap</button>
         </div>
+        <br/>
+        <hr/>
+
       </div>
     )
   }
