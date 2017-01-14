@@ -16,11 +16,12 @@ export default class Main extends Component{
     )
   }
   background(){
-    var imageUrl = (Math.random() * 5).toFixed();
+    var imageUrl = (Math.random() * 4).toFixed();
     if(imageUrl === "0"){
       imageUrl = parseInt(imageUrl, 10) + 1
     }
     const img = imageUrl.toString();
+    console.log(img);
     return{
       margin:"-8px -8px -10px -8px",
       background:"url(img/"+img+".jpg)",

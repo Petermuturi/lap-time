@@ -1,0 +1,26 @@
+.lap-time{
+  margin-top: 460px;
+  position: absolute;
+  margin-left: 200px;
+  font-size: 90px;
+  font-weight: 100;
+  font-family:fantasy;
+  transform: rotate(-30deg);
+  color: #fff;
+}
+.timer{
+  transform: rotate(-30deg);
+  margin-top: 50px;
+  margin-left: 20px;
+  position: absolute;
+  font-size: 150px;
+  font-family:fantasy;
+  display: inline;
+  color: #fff;
+}
+.min{
+  font-size: 280px;
+}
+.sec{
+  font-size: 200px;
+}
