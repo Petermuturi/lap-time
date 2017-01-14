@@ -1,0 +1,23 @@
+.trigger{
+  margin-top: -46%;
+  margin-right: 2%;
+  float: right;
+}
+.reset{
+  height: 100px;
+  width:100px;
+  border-radius: 100%;
+  border:1px solid red;
+  background: red;
+  color:white;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.reset:hover{
+  border-radius: 100%;
+  border:1px solid red;
+  background: white;
+  color: red;
+}
