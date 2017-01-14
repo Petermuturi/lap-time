@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
 import { Container } from 'semantic-ui-react'
+import Watch from '../watch/Watch'
 
 export default class Main extends Component{
   render(){
     return(
-      <Container style={this.style()}>
+      <Container style={this.background()}>
         <Watch/>
+        <div style={this.triangle()}>
+
+        </div>
       </Container>
     )
   }
-  style(){
+  background(){
     var imageUrl = (Math.random() * 5).toFixed();
     if(imageUrl === "0"){
       imageUrl = parseInt(imageUrl, 10) + 1
@@ -21,7 +25,18 @@ export default class Main extends Component{
       background:"url(img/"+img+".jpg)",
       backgroundSize: "cover",
       filter: "grayscale(60%)",
-      height:"100vh"
+      height:"100vh",
+      width:"100vw"
+    }
+  }
+  triangle(){
+    return{
+      paddingLeft:"46%",
+      marginTop:"-20px",
+      width:"0",
+      height:"0",
+      borderBottom: "100vh solid white",
+      borderLeft: "100vh solid transparent"
     }
   }
 }
