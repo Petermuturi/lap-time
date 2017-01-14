@@ -6,6 +6,7 @@ export default class Trigger extends Component{
     return(
       <div className="trigger">
         <button className="reset">reset</button>
+        <br/>
         <div>
           <button className="start">start</button>
           <button className="lap">lap</button>
