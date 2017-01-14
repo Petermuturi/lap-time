@@ -1,28 +1,28 @@
 .trigger{
-  margin-top: -46%;
+  margin-top: -40%;
   margin-right: 2%;
   float: right;
-}
-.reset{
-  height: 100px;
-  width:100px;
-  border-radius: 100%;
-  border:1px solid #E80024;
-  background: #E80024;
-  color:white;
-  cursor: pointer;
-  font-weight: 100;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.reset:hover{
-  border-radius: 100%;
-  border:1px solid #E80024;
-  background: white;
-  color: #E80024;
+  font-family: sans-serif;
 }
 .stlp{
   padding-top: 20px;
+}
+.reset{
+  margin-left: 30px;
+  border: 1px solid #E80024;
+  background: #E80024;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.reset:hover{
+  border:1px solid #E80024;
+  background: white;
+  color: #E80024;
 }
 .start{
   margin-left: -200px;
@@ -33,7 +33,7 @@
   padding: 10px 30px 10px 30px;
   cursor: pointer;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .start:hover{
@@ -42,7 +42,7 @@
   color: #1679CE;
 }
 .lap{
-  margin-left: 60px;
+  margin-left: 30px;
   border: 1px solid #18C97F;
   background: #18C97F;
   color: white;
@@ -50,7 +50,7 @@
   padding: 10px 40px 10px 40px;
   cursor: pointer;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .lap:hover{
@@ -60,8 +60,8 @@
 }
 hr{
   color: rgba(0,0,0,0.1);
-  width:450px;
+  width:400px;
   position: absolute;
-  margin-left: -350px;
+  margin-left: -215px;
 
 }
