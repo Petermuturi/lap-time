@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router'
 
 import Watch from '../watch/Watch'
+import Laps from '../laps/Laps'
 import './main.css'
 
 export default class Main extends Component{
@@ -9,18 +10,19 @@ export default class Main extends Component{
     super(props)
     this.state = {
       active: false,
-      count: 0,
+      lap: 0,
       minute: "00",
       second: "00",
-      minSec: "0"
+      minSec: 0
     }
   }
 
   onActivate=()=>{
     if (!this.state.active){
-      this.setState({active: true})
+      this.setState({active: true, minute: "hi"})
+
     }else{
-      this.setState({active: false})
+      this.setState({active: false, minute: "00", second: "00", minSec: 0})
     }
 
   }
@@ -44,6 +46,7 @@ export default class Main extends Component{
           </div>
           <br/>
           <hr/>
+          <Laps lap={this.state} />
         </div>
 
       </div>
