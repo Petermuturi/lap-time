@@ -1,9 +1,18 @@
 .no-lap{
   position: absolute;
   text-align: center;
-  padding-top: 200px;
+  margin-top: 200px;
   margin-left: -280px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 100;
+}
+.lap-zone{
+  background-color:#eee;
+  position: absolute;
+  margin-left: -260px;
+  height: 400px;
+  width: 450px;
+  margin-top: 40px;
+  overflow: scroll;
 }

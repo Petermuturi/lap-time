@@ -10,7 +10,8 @@ export default class Main extends Component{
     super(props)
     this.state = {
       active: false,
-      lap: 0,
+      lap: [],
+      counter: 0,
       minute: "00",
       second: "00",
       minSec: 0
@@ -30,13 +31,13 @@ export default class Main extends Component{
   }
   onLap=()=>{
     if (this.state.active){
-      var lap = this.state.lap + 1
-      this.setState({lap: lap })
-      console.log(lap);
-    }else{
-      this.setState({lap: 0 })
+      var lap = this.state.counter + 1;
+      this.setState({counter: lap})
+      this.state.lap.push(lap);
     }
-
+    else{
+      this.setState({lap: [], counter: 0 })
+    }
   }
 
   render(){
