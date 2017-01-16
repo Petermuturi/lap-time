@@ -17,9 +17,11 @@ export default class Main extends Component{
     }
   }
 
+
   onActivate=()=>{
     if (!this.state.active){
-      this.setState({active: true, minute: "hi"})
+      this.setState({active: true })
+      console.log ("hi");
 
     }else{
       this.setState({active: false, minute: "00", second: "00", minSec: 0})

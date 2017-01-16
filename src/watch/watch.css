@@ -1,5 +1,5 @@
 .lap-time{
-  margin-top: 32%;
+  margin-top: 26%;
   position: absolute;
   margin-left: 200px;
   font-size: 90px;
@@ -10,7 +10,7 @@
 }
 .timer{
   transform: rotate(-30deg);
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 20px;
   position: absolute;
   font-size: 150px;

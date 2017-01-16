@@ -1,11 +1,11 @@
 #triangle{
-  margin-top:-18px;
+  margin-top:-10px;
   border-bottom: 100vh solid white;
   border-left: 100vw solid transparent;
 }
 
 .trigger{
-  margin-top: -40%;
+  margin-top: -38%;
   margin-right: 2%;
   float: right;
   font-family: sans-serif;
@@ -14,12 +14,12 @@
   padding-top: 20px;
 }
 .reset{
-  margin-left: 30px;
+  margin-left: 25px;
   border: 1px solid #E80024;
   background: #E80024;
   color: white;
   border-radius: 7px;
-  padding: 10px 30px 10px 30px;
+  padding: 5px 25px 5px 25px;
   cursor: pointer;
   font-weight: 100;
   font-size: 14px;
@@ -31,15 +31,15 @@
   color: #E80024;
 }
 .start{
-  margin-left: -200px;
+  margin-left: -150px;
   border: 1px solid #1679CE;
   background: #1679CE;
   color: white;
   border-radius: 7px;
-  padding: 10px 30px 10px 30px;
+  padding: 5px 25px 5px 25px;
   cursor: pointer;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 .start:hover{
@@ -48,15 +48,15 @@
   color: #1679CE;
 }
 .lap{
-  margin-left: 30px;
+  margin-left: 25px;
   border: 1px solid #18C97F;
   background: #18C97F;
   color: white;
   border-radius: 7px;
-  padding: 10px 40px 10px 40px;
+  padding: 5px 35px 5px 35px;
   cursor: pointer;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 .lap:hover{
