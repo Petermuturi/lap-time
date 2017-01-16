@@ -28,6 +28,16 @@ export default class Main extends Component{
     }
 
   }
+  onLap=()=>{
+    if (this.state.active){
+      var lap = this.state.lap + 1
+      this.setState({lap: lap })
+      console.log(lap);
+    }else{
+      this.setState({lap: 0 })
+    }
+
+  }
 
   render(){
     const start = this.state.active ? "stop" : "start"
@@ -43,7 +53,9 @@ export default class Main extends Component{
             <Link
               onClick={this.onActivate}
               className="start">{start}</Link>
-            <Link className="lap">lap</Link>
+            <Link
+              onClick={this.onLap}
+              className="lap">lap</Link>
             <Link className="reset">reset</Link>
           </div>
           <br/>
@@ -61,7 +73,7 @@ export default class Main extends Component{
       imageUrl = parseInt(imageUrl, 10) + 1
     }
     const img = imageUrl.toString();
-    console.log(img);
+
     return{
       margin:"-8px -8px -10px -8px",
       background:"url(img/"+img+".jpg)",
