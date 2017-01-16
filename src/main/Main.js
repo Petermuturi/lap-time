@@ -39,6 +39,9 @@ export default class Main extends Component{
       this.setState({lap: [], counter: 0 })
     }
   }
+  onReset=()=>{
+    this.setState({active: false, lap: [], counter: 0, minute: "00", second: "00", minSec: 0})
+  }
 
   render(){
     const start = this.state.active ? "stop" : "start"
@@ -57,7 +60,9 @@ export default class Main extends Component{
             <Link
               onClick={this.onLap}
               className="lap">lap</Link>
-            <Link className="reset">reset</Link>
+            <Link
+              onClick={this.onReset}
+              className="reset">reset</Link>
           </div>
           <br/>
           <hr/>
