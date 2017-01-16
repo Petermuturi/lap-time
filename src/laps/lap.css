@@ -1,8 +1,12 @@
 .no-lap{
+  background-color:#eee;
   position: absolute;
+  margin-left: -260px;
+  height: 220px;
+  width: 450px;
+  padding-top: 200px;
   text-align: center;
-  margin-top: 200px;
-  margin-left: -280px;
+  margin-top: 40px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 100;
@@ -11,7 +15,7 @@
   background-color:#eee;
   position: absolute;
   margin-left: -260px;
-  height: 400px;
+  height: 420px;
   width: 450px;
   margin-top: 40px;
   overflow: scroll;

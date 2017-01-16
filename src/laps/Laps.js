@@ -8,7 +8,7 @@ export default class Laps extends Component{
     return(
       <div>
         {
-          lap.lap !== 0 ?
+          lap.lap.length !== 0 ?
           <div className="no-lap">
             No lap has been set. Try starting the Timer.
             :-)
